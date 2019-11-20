@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>17 goals - Netflix Dokumentar</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="burger">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+                    <input type="checkbox" />
+
+                    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+                    <ul id="menu">
+
+                        <a href="#galleri">
+                            <li>Galleri</li>
+                        </a>
+                        <a href="#teaser">
+                            <li>Teaser</li>
+                        </a>
+                        <a href="#om">
+                            <li>Om</li>
+                        </a>
+                        <a href="#hjem">
+                            <li>Hjem</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--end burger nav-->
+
+
+        <div class="aroundbox1">
+
+            <nav id="navbar" class="clearfix col12 space">
+
+                <ul class="clearfix">
+
+                    <li>
+                        <a href="#">
+                            <img src="../images/netflix.png" alt="netflix logo">
+                        </a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="#">Hjem</a>
+
+                    </li>
+
+                    <li>
+                        <a href="#om">Om</a>
+
+                    </li>
+
+                    <li>
+                        <a href="#teaser">Teaser</a>
+                    </li>
+
+                    <li>
+                        <a href="#Galleri">Galleri</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <header id="top">
+            <h1 div id="h1_1">
+                17 Goals teaser</h1>
+
+            <p div id="p1">Dokumentar mini-serie om de 17 verdensmål</p>
+            <img src="logo.svg" alt="lol" class="logo">
+            <p div id="p2">Mål 13: Klimakrisen </p>
+            <p div id="p3"> Hvad gør man når man står over for én af verdens største kriser?</p>
+
+            <a href="#down" id="goDown">
+                <img src="images/arrow1.png" class="arrow">
+            </a>
+        </header>
+        <main>
+
+            <div class="clearfix divbox1" id="plakat">
+
+                <div class="col7 poster">
+                    <img src="plakat.png">
+                </div>
+
+                <section class="col5">
+                    <h2>Plot</h2>
+                    <br>
+                    <p class="text1">På en regnfuld dag i november vågner Palle op på en stol uden nogen erindring om, hvordan han er endt
+                        der. Da han endelig kommer til sig selv erfarer han, at han er alene. Helt alene. Om end han søger
+                        overalt er der ingen mennesker at finde. Og dog. Mens tiden går begynder Palle at høre mærkelige
+                        lyde,
+                        <br> se ting bevæge sig af sig selv og til slut at se skikkelser. Hvem er de skikkelser han forgæves
+                        forsøger at få kontakt med? Hvordan endte Palle alene og uden erindring om fortiden?
+                        <br> Hvem er Palle egentlig? Og er han egentlig alene eller befinder han sig mellem to verdener? Fra
+                        produktionsselskabet 9Film kommer en ny og gribende psykologisk thriller der stiller spørgsmålstegn
+                        til den menneskelige sjæl, ensomhed og eksistens. </p>
+                    <br>
+                    <br>
+                    <h2>SPOILER</h2>
+                    <p>
+                        <br> I slutningen af Palles søgning befinder han sig selv i et klinisk rum, fyldt med sygeplejerisker
+                        og læger. Han befinder sig på et sindsyg hospital, og en sygeplejeriske henvender sig til Palle og
+                        fortæller ham at han lider af vrangforstyrrelser idet han tror han er alene i verden, men kan dette
+                        være den hele sandhed eller skjuler hospitalet en hemmelighed for ham?</p>
+                    <br>
+                    <br>
+
+                    <div id="ekstra">
+                        <h2>Proces</h2>
+                        <p class="text1">
+                            <br> Det kan være svært lige at finde på hvad man skal lave en trailer omkring, det gik skam hurtigt
+                            op for hele holdet at en META comedy trailer lige var sagen.
+                            <br> Dog ikke helt alligvel, da teamet havde sovet på hele idéen om "et rædselsfuldt film produktions
+                            hold, ved navnet Citron production".
+                            <br> Tilgengæld blev alle hurtigt enige om at gys og thriller vibes var en meget mere overskuelig
+                            tilgang til dette projekt, og efter en masse kreative idéer blev historien om Palle der vandre
+                            rundt alene i verden født.
+                            <br>
+                        </p>
+
+
+                    </div>
+                    <button id="readmore" onclick="vis();" class="navne">Læs mere</button>
+                </section>
+
+            </div>
+
+            <h2 class="h2_2">galleri</h2>
+
+            <div id="galleri" class="clearfix">
+                <div id="pil_left">
+                    <img src="images/arrowleft.png" width="24" height="26" alt="back" class="left" onClick="tilbage()">
+                </div>
+
+                <div class="foto">
+                    <img id="placeholder" src="stills/en1.jpg" alt="en stills" />
+                </div>
+                <div id="pil_right">
+                    <img src="images/arrowright.png" width="24" height="26" alt="forward" class="right" onClick="frem()">
+                </div>
+            </div>
+
+
+            <h2 class="h2_3" id="trailer">Trailer</h2>
+
+            <video controls width="960" height="540" poster="videoframe.png">
+                <source src="placeholdervideo/gruppe9.mp4" type="video/mp4">
+            </video>
+
+        </main>
+
+        <a href="#top" class="top">
+            <p>TOP</p>
+        </a>
+    </div>
+    <!--end wrapper-->
+
+    <footer>
+        <div id="footerDiv">
+            <div class="col12 clearfix">
+                <img src="logo.svg" alt="lol" class="logo2">
+            </div>
+            <div class="col2 credits">
+                <h3>
+                    <span class="fed">CREDITS</span>
+                </h3>
+                <br>
+                <br>
+                <p>Projektleder: Mathias
+                    <br> Fotograf: Emma
+                    <br> TV-crew: Jonas
+                    <br> Grafisk-design: Mathias
+                    <br> Art-director: Magnus
+                    <br> Web-developer: Lotte
+                </p>
+            </div>
+
+            <div class="col4">
+                <h3>
+                    <span class="fed">OM 9Film</span>
+                </h3>
+                <br>
+                <br>
+                <p>
+                    9film studios er blevet dannet i November
+                    <br> 2017 af en gruppe tværfaglige studerende, som
+                    <br> skulle producere et produkt i form af en trailer
+                    <br> der skulle præsenteres via. en hjemmeside
+                    <br> med fotografier der viser os stills fra optagelsen
+                    <br> samt grafisk håndværk og design.
+                </p>
+            </div>
+
+            <div class="col3">
+                <h3>
+                    <span class="fed">Følg os</span>
+                </h3>
+                <br>
+                <br>
+                <p>Følg os på Facebook, twitter og
+                    <br> instagram for at for at få de seneste updates.</p>
+                <a href="https://www.facebook.com/%C3%89N-Psykologisk-Thriller-195000444402797/" class="top">
+                    <img src="images/fb1.png" class="fb" alt="fb logo">
+                </a>
+                <img src="images/697029-twitter-256.png" class="fb2" alt="twitter logo">
+                <img src="images/Hover-Instagram-4-icon.png" class="insta" alt="instagram logo">
+            </div>
+
+            <div class="col3">
+                <h3>
+                    <span class="fed">Besøg NEXT KBH</span>
+                </h3>
+                <br>
+                <br>
+                <p>Få mere information omkring
+                    <br> uddannelserne på NEXT skole.</p>
+                <a href="https://www.nextkbh.dk" class="top">
+                    <img src="images/next_logo.png" class="next" alt="fb logo">
+                </a>
+
+            </div>
+            <div class="col12 crtext">
+                <img src="images/cr.png" alt="copyright" class="cr">ALL RIGHTS RESERVED</div>
+
+        </div>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
